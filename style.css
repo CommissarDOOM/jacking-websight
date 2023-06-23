@@ -1,7 +1,4 @@
-html {
-  height: 100%;
-  width: 100%;
-}
+
 /*banner */
 header {
 width: 100%;
@@ -13,11 +10,40 @@ font-family: 'Courier New', Courier, monospace;
 font-size: 3em;
 padding-top: 20px;
 }
-
+  
 
 body {
 margin: 0;
 }
+
+/* nav*/
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #c50792;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #10e0b6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #d01616;
+  color: black;
+}
+
 /*section bars*/
 section{
  width: 100%;
@@ -32,6 +58,7 @@ background-size: 100%;
 max-width: 100%;
 height: 300px;
 background-attachment: fixed;
+
 }
 
 #imging2 {
@@ -44,6 +71,31 @@ background-attachment: fixed;
 
 #imging3 {
 background-image: url(images/img1.jpg);
+background-size: 100%;
+max-width: 100%;
+height: 300px;
+background-attachment: fixed;
+}
+
+#imging4 {
+background-image: url(images/jack.jpeg);
+background-size: 100%;
+max-width: 100%;
+height: 300px;
+background-attachment: fixed;
+
+}
+
+#imging5 {
+background-image: url(images/Jackfruit.jpg);
+background-size: 100%;
+max-width: 100%;
+height: 300px;
+background-attachment: fixed;
+}
+
+#imging6 {
+background-image: url(images/jacklop.jpg);
 background-size: 100%;
 max-width: 100%;
 height: 300px;
