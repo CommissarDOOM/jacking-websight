@@ -101,3 +101,19 @@ max-width: 100%;
 height: 300px;
 background-attachment: fixed;
 }
+/* font */
+
+
+h1{
+  color: #904747;
+  font-family: 'Macondo', cursive;
+}
+h2{
+   color: white;
+  font-family: 'Macondo', cursive;
+}
+
+p{
+   color: white;
+  font-family: 'Macondo', cursive;
+}
